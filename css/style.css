@@ -115,12 +115,51 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: ex10;
+    animation-duration: 1s;
+    animation-direction:reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ex10 {
+    25% {
+        transform: rotate( 90deg)
+    }
+    50% {
+        transform: rotate( 180deg)
+    }
+    75% {
+        transform: rotate( 270deg)
+    }
+    100% {
+        transform: rotate( 360deg)
+    }
 }
 
 /* Ex.11 */
 
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    animation-name: ex11;
+    animation-duration: 1s;
+}
+
+@keyframes ex11 {
+    25% {
+        transform: rotate( 90deg)
+    }
+    50% {
+        transform: rotate( 180deg)
+    }
+    75% {
+        transform: rotate( 280deg)
+    }
+    100% {
+        transform: rotate( 0deg)
+    }
 }
 
 /* Ex.12 */
