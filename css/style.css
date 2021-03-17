@@ -117,22 +117,13 @@
     font-size: 60px;
     animation-name: ex10;
     animation-duration: 1s;
-    animation-direction:reverse;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes ex10 {
-    25% {
-        transform: rotate( 90deg)
-    }
-    50% {
-        transform: rotate( 180deg)
-    }
-    75% {
-        transform: rotate( 270deg)
-    }
-    100% {
-        transform: rotate( 360deg)
+    0% {
+        transform: rotate(1turn);
     }
 }
 
@@ -144,7 +135,8 @@
 
 .ex-11-icon:hover{
     animation-name: ex11;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 @keyframes ex11 {
@@ -155,7 +147,7 @@
         transform: rotate( 180deg)
     }
     75% {
-        transform: rotate( 280deg)
+        transform: rotate( 330deg)
     }
     100% {
         transform: rotate( 0deg)
