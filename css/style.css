@@ -102,10 +102,10 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
-    transition: transform 2s, border-radius 2s, filter 2s;    
+    transition: transform 2s, border-radius 2s, filter 2s;
 }
 
-.ex-9-img:hover{
+.ex-9-img:hover {
     transform: scale(1.5);
     border-radius: 6%;
     filter: sepia(0.5) grayscale(0.5);
@@ -157,4 +157,104 @@
     height: 20px;
 }
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: ex12_top 3s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: ex12_bottom 3s;
+}
+
+@keyframes ex12_top {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    50% {
+        top: -10px;
+        left: 69%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes ex12_bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    50% {
+        bottom: -10px;
+        right: 69%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
 /* Ex.13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: ex13_top 3s;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: ex13_bottom 3s;
+}
+
+@keyframes ex13_top {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    20% {
+        top: -10px;
+        left: 85%;
+    }
+    40% {
+        top: 56px;
+        left: 85%;
+    }
+    60% {
+        top: 56px;
+        left: -10%;
+    }
+    80% {
+        top: -10px;
+        left: -10%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes ex13_bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    20% {
+        bottom: -10px;
+        right: 85%;
+    }
+    40% {
+        bottom: 56px;
+        right: 85%;
+    }
+    60% {
+        bottom: 56px;
+        right: -10%;
+    }
+    80% {
+        bottom: -10px;
+        right: -10%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
