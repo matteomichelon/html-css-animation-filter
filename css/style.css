@@ -9,6 +9,8 @@
     background-color: red;
 }
 
+/* Ex.2 */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -16,11 +18,11 @@
     transition: width 2s;
 }
 
-/* TODO manca il click del mouse */
-
-.ex-2-square:hover {
+.ex-2-square:active:hover {
     width: 100%;
 }
+
+/* Ex.3 */
 
 .ex-3-square {
     width: 100px;
@@ -33,6 +35,8 @@
     border-radius: 50%;
 }
 
+/* Ex.4 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -44,34 +48,82 @@
     opacity: 0;
 }
 
+/* Ex.5 */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
-    transition: scale 2s;
+    transition: transform 1s;
 }
-/* TODO transform scale non funziona */
-.ex-5-square:hover{
-    transform: scale(2,2);
+
+.ex-5-square:hover {
+    transform: scale(2);
 }
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* Ex.6 */
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* Ex.7 */
+
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.6) sepia(0.5);
+}
+
+/* Ex.8 */
+
+.ex-8-img {
+    transition: border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 6%;
+    filter: sepia(0.5) saturate(0.5);
+}
+
+/* Ex.9 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: transform 2s, border-radius 2s, filter 2s;    
 }
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 6%;
+    filter: sepia(0.5) grayscale(0.5);
+}
+
+/* Ex.10 */
 
 .ex-10-icon {
     font-size: 60px;
 }
 
+/* Ex.11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* Ex.12 */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -104,3 +156,5 @@
     width: 60px;
     height: 20px;
 }
+
+/* Ex.13 */
