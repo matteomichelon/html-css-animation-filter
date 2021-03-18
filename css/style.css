@@ -189,11 +189,11 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: ex12_top 3s;
+    animation: ex12_top 3s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: ex12_bottom 3s;
+    animation: ex12_bottom 3s linear;
 }
 
 @keyframes ex12_top {
@@ -229,11 +229,11 @@
 /* Ex.13 */
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: ex13_top 3s;
+    animation: ex13_top 3s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: ex13_bottom 3s;
+    animation: ex13_bottom 3s linear;
 }
 
 @keyframes ex13_top {
